@@ -12,6 +12,7 @@ def suma(event, context):
         "suma": operando_b + operando_a
     }
 
+
 def resta(event, context):
     operando_a = event['operando_a']
     operando_b = event['operando_b']
